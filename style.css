@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  padding: 50px;
+  font-size: 100px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.square {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 700;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  border: 15px black solid;
+}
+
+#square-0,
+#square-1,
+#square-2 {
+  border-top: none;
+}
+
+#square-0,
+#square-3,
+#square-6 {
+  border-left: none;
+}
+
+#square-6,
+#square-7,
+#square-8 {
+  border-bottom: none;
+}
+
+#square-2,
+#square-5,
+#square-8 {
+  border-right: none;
+}
+
+.x,
+.o {
+  text-align: center;
+  font-size: 200px;
+}
+
+.whosTurn{
+    text-align: center;
+}
